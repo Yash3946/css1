@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    background-color: blue;
+    display: flex;
+    justify-content:space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+li{
+    display: inline;
+  
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color:cornflowerblue;
+}

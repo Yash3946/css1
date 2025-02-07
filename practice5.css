@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* #box1{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+   font-size: 10px;
+}
+
+#box2{
+    height: 100px;
+    width: 15%;
+    background-color: aqua;
+    font-size: 2rem;
+    2 times for parent font size */
+    /* height: 10vh;
+    1vh it means 1 percent size of browzer
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: inline-block;
+    margin: 10px;
+}
+#box1{
+    position: static;
+}
+
+#box2{
+    position: relative;
+    top: 10px;
+    /* it is this position to 10px bottom */
+    right: 50px;
+    /* it is left to right 10px */
+    z-index: -1;
+    /* when we z-index in set possitive value then box2 position is upper and negative value set then lower */
+}
+
+#box3{
+    position: absolute;
+    top:100px;
+    left: 20px;
+  
+
+}
+
+#box4{
+    /* it is fixed position */
+    position:fixed;
+    top: 0;
+}
+
+#box5{
+    /* when we scroll pages then we see box5 and position top to 0px set then box5 fix in pages */
+    position: sticky;
+    top:0px;
+   
+}
+
+#boxes1{
+    height: 300px;
+    width: 300px;
+
+    background-image: url("defender.jpg");
+    background-size: cover;
+    /* complete fit in our area */
+}

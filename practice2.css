@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+/*  border: size  style color*/
+    border: 2px solid black;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 5px;
+/* padding: top  right bottom  left => clockwise  [padding is content and border between space is padding] */
+    padding: 2px  3px   2px    3px;
+/* margin: top  right bottom  left => clockwise  [margin is between 2 boxes is margin] */
+    margin: 10px 20px 10px 20px;
+}
+

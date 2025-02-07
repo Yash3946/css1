@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 2s;
+    /* property name,duration,timing-function,delay */
+    transition: 10px 2s ease-in-out 0.2s;
+}
+div:hover{
+    /* when we hover curser then color is changed */
+    background-color: yellowgreen;
+    color: white;
+    /* when we hover curser then color is changed */
+    font-size: 20px;
+
+}
+div:active{
+    background-color: pink;
+}

@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-top: 10px solid orange;
+    border-right:10px solid aquamarine;
+    border-left: 10px solid yellowgreen;
+    border-bottom: 10px solid green;
+    align-content: center;
+    position: absolute;
+    left: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:orange;
+    font-size: 50px;
+
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes spin{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

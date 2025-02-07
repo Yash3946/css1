@@ -1,0 +1,31 @@
+h2{
+    color: blue;
+}
+
+button{
+    color: red;
+    background-color: blueviolet;
+}
+body{
+    background-color:brown;
+}
+/* by id */
+#heading3{
+color: red;
+}
+
+.myclass{
+    color:chartreuse;
+}
+
+#head{
+    text-align: center;
+    text-transform: capitalize;
+}
+#div1{
+    font-size: 25px;
+}
+
+#div2{
+    font-size: 10px;
+}

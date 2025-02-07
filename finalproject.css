@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    border: 2px solid transparent;
+}
+.nav-logo:hover{
+    border: 2px solid white;
+}
+.logo{
+    background-image: url("/logo1.svg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+/* -------------------------address-------------------------------- */
+.add-fir{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.add-fir,.add-sec{
+    border: 2px solid transparent;
+}
+.nav-addreess{
+    border: 2px solid transparent;
+    margin-left: 7px;
+
+}
+.nav-addreess:hover{
+    border: 2px solid white;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* -----------------------search---------------------------------- */
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}    
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: rgb(255, 174, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/* -----------------------sign.in---------------------------------- */
+span{
+    font-size: 0.8rem;
+}
+.nav-second{
+    font-size: 0.95rem;
+    font-weight: 700;
+}   
+.nav-signin{
+    border: 2px solid transparent;
+}
+
+.nav-signin:hover{
+    border: 2px solid white;
+
+}
+
+/* ------------------return & orders ------------------*/
+
+.nav-return{
+    border: 2px solid transparent;
+}
+
+.nav-return:hover{
+    border: 2px solid white;
+}
+/* ------------------cart ------------------*/
+
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    border: 2px solid transparent;
+}
+.nav-cart:hover{
+    border: 2px solid white;
+}
+/* ------------------panels------------------*/
+.panel{
+    height: 40px;
+    background-color: #333f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+/* <!------------------ hero-section ------------------> */
+
+.hero-section{
+    background-image: url("/hero.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+/* <!------------------ content-section ------------------> */
+
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color:floralwhite;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:beige;
+}
+.box1-img{
+    height: 140px;
+    width: 140px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("/box1.jpg");
+    background-position:center;
+    background-size:cover;
+}
+
+.box2-img{
+    height: 140px;
+    width: 140px;
+    display:flex;
+    margin-left: 180px;
+    margin-top: -145px;
+    background-image: url("/box2.jpg");
+    background-SIZE:cover ;
+}
+.box3-img{
+    height: 140px;
+    width: 140px;
+    display:flex;
+    margin-left: 10px;
+    margin-top: 50px;
+    background-image: url("/BOX3.jpg");
+    background-position:center;
+    background-SIZE:cover ;
+}
+.box4-img{
+    height: 140px;
+    width: 140px;
+    display:flex;
+    margin-left: 180px;
+    margin-top: -145px;
+    background-image: url("/box4.jpg");
+    background-position:center;
+    background-SIZE:cover ;
+}
+.box1-exploreall{
+    text-decoration: none;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.box1-exploreall:hover
+{
+    font-size: 1.2rem;
+    color: deepskyblue;
+}
+/* <!-- ----------box2 ------------> */
+
+.boxes1-img{
+    height: 120px;
+    width: 150px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("/boxes1.jpg");
+    background-position:center;
+    background-size:cover;
+}
+.boxes2-img{
+    height: 120px;
+    width: 140px;
+    display:flex;
+    margin-left: 180px;
+    margin-top: -125px;
+    background-image: url("/boxes2.jpg");
+    background-position:center;
+    background-size: cover;
+}
+.boxes3-img{
+    height: 140px;
+    width: 150px;
+    display:flex;
+    margin-left: 10px;
+    margin-top: 50px;
+    background-image: url("/boxes3.jpg");
+    background-position:center;
+    background-size:cover;
+}
+.boxes4-img{
+    height: 140px;
+    width: 140px;
+    display:flex;
+    margin-left: 180px;
+    margin-top: -145px;
+    background-image: url("/boxes4.jpg");
+    background-position:center;
+    background-size:cover;
+}
+.box2-seemore{
+    text-decoration: none;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.box2-seemore:hover
+{
+    font-size: 1.2rem;
+    color: deepskyblue;
+}
+
+/* <!---------------box3 ----------------> */
+
+.boxA-img{
+    height: 140px;
+    width: 140px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("/boxA.jpg");
+    background-position:center;
+    background-size:cover;
+}
+.boxB-img{
+    height: 140px;
+    width: 140px;
+    display:flex;
+    margin-left: 180px;
+    margin-top: -145px;
+    background-image: url("/boxB.jpg");
+    background-size: contain ;
+    background-position:center;
+}
+.boxC-img{
+    height: 140px;
+    width: 140px;
+    display:flex;
+    margin-left: 10px;
+    margin-top: 50px;
+    background-image: url("/boxC.jpg");
+    background-position:center;
+    background-SIZE:cover ;
+}
+.boxD-img{
+    height: 140px;
+    width: 140px;
+    display:flex;
+    margin-left: 180px;
+    margin-top: -145px;
+    background-image: url("/boxD.jpg");
+    background-position:center;
+    background-size:contain ;
+}
+.box3-seeall{
+    text-decoration: none;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.box3-seeall:hover{
+    font-size: 1.2rem;
+    color: deepskyblue;
+}
+
+/* <!-------------------box4----------------------> */
+.boxP-img{
+    height: 120px;
+    width: 150px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url("/boxP.jpg");
+    background-position:center;
+    background-size:cover;
+}
+.boxQ-img{
+    height: 120px;
+    width: 145px;
+    display:flex;
+    margin-left: 180px;
+    margin-top: -120px;
+    background-image: url("/boxQ.jpg");
+    background-position:center;
+    background-size: cover;
+}
+.boxR-img{
+    height: 140px;
+    width: 150px;
+    display:flex;
+    margin-left: 10px;
+    margin-top: 50px;
+    background-image: url("/boxR.jpg");
+    background-position:center;
+    background-size:cover;
+}
+.boxS-img{
+    height: 140px;
+    width: 140px;
+    display:flex;
+    margin-left: 180px;
+    margin-top: -145px;
+    background-image: url("/boxS.jpg");
+    background-position:center;
+    background-size:cover;
+}
+.box4-see{
+    text-decoration: none;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.box4-see:hover{
+    font-size: 1.2rem;
+    color: deepskyblue;
+}
